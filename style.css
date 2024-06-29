@@ -1,0 +1,29 @@
+/* *{
+    background-color: blue;
+} */
+
+table{
+    margin: 50px;
+  }
+  
+   table th,td{
+    border: 2px solid black;
+    padding: 0 60px;
+  } 
+  
+ table td{
+    background-color: bisque;
+    color: black;
+    font-size: 26px;
+  } 
+  table th{
+    background-color: blue;
+    color: white;
+    font-size: 28px;
+  }
+
+   table caption{
+    font-size: 35px;
+    color:black;
+    font-weight: 600;
+  }  

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- internal css -->
+    <style>
+      .heading {
+        color: white;
+        background-color: blue;
+        font-size: 85px;
+        padding: 15px;
+        margin: 25px;
+        border: 6px dotted orange;
+        border-radius: 25px;
+      }
+      table{
+        margin: 50px;
+      }
+      table th,td{
+        border: 2px solid black;
+        padding: 0 80px;
+      }
+      table th{
+        background-color: blue;
+        color: white;
+        font-size: 28px;
+      }
+      table td{
+        background-color: bisque;
+        color: black;
+        font-size: 26px;
+        
+      }
+
+      table caption{
+        font-size: 20px;
+        color: rebeccapurple;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- these are inline css examples -->
+    <!-- <h2 style=" color:blue; background-color: yellow; font-size: 38px; text-align: center; padding: 50px; margin: 50px; ">Jinja Compass</h2>
+<h1 style =" color:green; border:6px dotted red; padding:50px;">This is the name of this site</h1>
+<img src="./images/img1.webp" alt="jinja" style="width:130px;height:130px; border:3px solid orange; border-radius:50%;">  -->
+    <h1 class="heading">Hello welcome to our site</h1>
+
+  
+    <table>
+        <caption>
+            Students information
+        </caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Peter</td>
+                <td>26</td>
+                <td>Male</td>
+                <td>New O'rleans</td>
+            </tr>
+
+            <tr>
+                <td>Daphine</td>
+                <td>21</td>
+                <td>Female</td>
+                <td>New Jersey</td>
+            </tr>
+            <tr>
+                <td>Samson</td>
+                <td>36</td>
+                <td>Male</td>
+                <td>Califonia</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>26</td>
+                <td>Female</td>
+                <td>Chicago</td>
+            </tr>
+
+        </tbody>
+    </table>
+  </body>
+</html>
